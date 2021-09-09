@@ -1,0 +1,38 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    druid:
+      driverClassName: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:4000/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+      username: root
+      password: 123456
+  application:
+    name: seata-consumer
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+seata:
+  enabled: true
+  application-id: seata-consumer
+  tx-service-group: my_test_tx_group
+  enable-auto-data-source-proxy: true
+  use-jdk-proxy: false
+  excludes-for-auto-proxying: firstClassNameForExclude,secondClassNameForExclude
+  config:
+    type: nacos
+    nacos:
+      namespace: ""
+      server-addr: 127.0.0.1:8848
+      group: SEATA_GROUP
+      username: "nacos"
+      password: "nacos"
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server
+      server-addr: 127.0.0.1:8848
+      group: "SEATA_GROUP"
+      namespace: ""
+      username: "nacos"
+      password: "nacos"

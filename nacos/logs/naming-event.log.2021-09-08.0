@@ -1,0 +1,516 @@
+2021-09-08 11:09:34,786 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2021-09-08 11:42:59,802 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 11:42:59,805 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 11:51:11,981 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631072644820
+
+2021-09-08 11:51:11,982 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 12:08:41,204 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631074058024
+
+2021-09-08 12:08:41,244 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 12:08:41,244 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 12:08:41,957 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 12:08:41,957 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 15:08:02,394 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:08:02,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 10.242.18.32:8080_true,
+
+2021-09-08 15:08:53,033 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:08:53,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 15:10:51,410 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:10:51,410 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 15:16:45,865 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:16:45,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 15:17:06,364 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:17:06,364 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 15:23:41,793 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:23:41,793 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 15:24:02,172 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:24:02,172 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 15:25:40,926 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:25:40,927 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 15:26:02,233 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:26:02,233 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 15:26:07,791 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:26:07,791 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 15:26:25,710 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:26:25,710 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 15:31:05,456 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:31:05,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 15:31:25,502 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 15:31:25,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 16:44:08,012 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631090448772
+
+2021-09-08 16:44:08,016 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631090450376
+
+2021-09-08 16:44:08,061 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 16:44:08,061 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 16:44:08,062 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 16:44:08,063 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 
+
+2021-09-08 16:44:09,549 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 16:44:09,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 10.242.18.32:8080_true,
+
+2021-09-08 16:44:11,404 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 16:44:11,404 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 18:59:46,851 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631097361072
+
+2021-09-08 18:59:46,854 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631097363363
+
+2021-09-08 18:59:46,910 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 18:59:46,910 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 18:59:46,910 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 18:59:46,910 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 18:59:46,933 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 18:59:46,933 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 18:59:48,836 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631097363824
+
+2021-09-08 18:59:48,838 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 18:59:48,838 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 18:59:49,390 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 18:59:49,390 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 18:59:49,805 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 18:59:49,805 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 19:03:57,159 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631098894504
+
+2021-09-08 19:03:57,159 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631098892187
+
+2021-09-08 19:03:57,164 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 19:03:57,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 19:03:57,164 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 19:03:57,164 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 19:03:57,306 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 19:03:57,306 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 19:03:59,628 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 19:03:59,628 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 19:35:32,678 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631099134795
+
+2021-09-08 19:35:32,678 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631099132453
+
+2021-09-08 19:35:32,683 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 19:35:32,683 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 19:35:32,683 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 19:35:32,683 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 19:35:32,870 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 19:35:32,871 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 19:35:35,209 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 19:35:35,210 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 19:35:56,102 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631100940211
+
+2021-09-08 19:35:56,104 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 19:56:42,887 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631101027434
+
+2021-09-08 19:56:42,890 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 19:56:42,890 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 19:56:42,950 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 19:56:42,950 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 20:28:19,709 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631102298141
+
+2021-09-08 20:28:19,712 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 20:28:19,712 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 20:28:19,827 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 20:28:19,827 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 20:28:45,301 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631104108578
+
+2021-09-08 20:28:45,301 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631104108582
+
+2021-09-08 20:28:45,301 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631104108578
+
+2021-09-08 20:28:45,301 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631104109794
+
+2021-09-08 20:28:45,302 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 20:28:45,302 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 20:28:45,302 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 20:28:45,322 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 20:36:57,978 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631104188747
+
+2021-09-08 20:36:57,983 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 20:36:57,983 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 20:36:58,085 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 20:36:58,085 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 21:08:13,363 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631104693201
+
+2021-09-08 21:08:13,366 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 21:08:13,366 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 21:08:13,495 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 21:08:13,495 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 21:08:39,025 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631106502578
+
+2021-09-08 21:08:39,026 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631106502585
+
+2021-09-08 21:08:39,026 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:08:39,026 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:08:39,026 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:08:39,026 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631106502584
+
+2021-09-08 21:09:11,231 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631106534898
+
+2021-09-08 21:09:11,231 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631106534898
+
+2021-09-08 21:09:11,231 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631106535030
+
+2021-09-08 21:09:11,231 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631106534898
+
+2021-09-08 21:09:11,231 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:09:11,231 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:09:11,231 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:09:11,303 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 21:30:00,735 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631106586428
+
+2021-09-08 21:30:00,737 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 21:30:00,737 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 21:30:01,108 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 21:30:01,108 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 21:48:30,730 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631107905392
+
+2021-09-08 21:48:30,730 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631107906400
+
+2021-09-08 21:48:30,730 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631107908438
+
+2021-09-08 21:48:30,730 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631107908092
+
+2021-09-08 21:48:30,734 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 21:48:30,734 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 21:48:30,734 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 21:48:30,734 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 21:48:30,735 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 21:48:30,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 21:48:30,735 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 21:48:30,735 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 
+
+2021-09-08 21:48:30,797 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 21:48:30,797 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 10.242.18.32:8080_true,
+
+2021-09-08 21:48:31,803 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 21:48:31,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 21:48:33,518 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 21:48:33,518 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 21:48:33,842 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 21:48:33,842 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 21:48:54,487 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631108916811
+
+2021-09-08 21:48:54,487 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631108918535
+
+2021-09-08 21:48:54,488 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 21:48:54,488 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631108918857
+
+2021-09-08 21:48:54,488 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:48:54,488 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 21:49:13,780 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631108938204
+
+2021-09-08 21:49:13,781 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:21:02,583 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631109066993
+
+2021-09-08 22:21:02,583 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631109067003
+
+2021-09-08 22:21:02,587 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:21:02,587 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 22:21:02,587 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 22:21:02,587 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 22:21:02,751 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 22:21:02,751 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 22:21:02,765 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:21:02,765 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 22:41:08,351 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631110965179
+
+2021-09-08 22:41:08,351 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631110965179
+
+2021-09-08 22:41:08,351 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631110965169
+
+2021-09-08 22:41:08,352 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631110965179
+
+2021-09-08 22:41:08,356 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:41:08,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 22:41:08,357 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 22:41:08,357 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 22:41:08,357 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:41:08,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 
+
+2021-09-08 22:41:08,357 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:41:08,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 22:41:08,439 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 22:41:08,439 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 22:41:08,441 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:41:08,441 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 22:41:08,442 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:41:08,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 10.242.18.32:8080_true,
+
+2021-09-08 22:41:08,442 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:41:08,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 22:41:37,411 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631112078490
+
+2021-09-08 22:41:37,411 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631112078497
+
+2021-09-08 22:41:37,411 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631112078491
+
+2021-09-08 22:41:37,412 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631112078491
+
+2021-09-08 22:41:37,435 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:41:37,437 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:41:37,438 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 22:41:37,448 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:58:48,010 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631112159998
+
+2021-09-08 22:58:48,010 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631112160012
+
+2021-09-08 22:58:48,013 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:58:48,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 22:58:48,013 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 22:58:48,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 22:58:48,048 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:58:48,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 22:58:48,061 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 22:58:48,061 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 22:59:22,636 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631113147141
+
+2021-09-08 22:59:22,637 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631113147141
+
+2021-09-08 22:59:22,637 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631113147141
+
+2021-09-08 22:59:22,637 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631113147141
+
+2021-09-08 22:59:22,637 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:22,637 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:22,637 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:22,637 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:52,544 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631113176408
+
+2021-09-08 22:59:52,544 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631113176408
+
+2021-09-08 22:59:52,544 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631113176409
+
+2021-09-08 22:59:52,544 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:52,544 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:52,544 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631113176408
+
+2021-09-08 22:59:52,544 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 22:59:52,544 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:15:33,625 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631113228287
+
+2021-09-08 23:15:33,625 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631113229692
+
+2021-09-08 23:15:33,625 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631113228287
+
+2021-09-08 23:15:33,625 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631113229998
+
+2021-09-08 23:15:33,629 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 23:15:33,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 
+
+2021-09-08 23:15:33,629 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 23:15:33,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 
+
+2021-09-08 23:15:33,629 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-09-08 23:15:33,629 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 
+
+2021-09-08 23:15:33,629 INFO SEATA_GROUP@@seata-server {SYNC} {IP-DEAD} cluster: default, dead ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_false_false_default]
+
+2021-09-08 23:15:33,629 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 
+
+2021-09-08 23:15:34,257 INFO DEFAULT_GROUP@@seata-provider1 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 23:15:34,257 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider1, ips: 10.242.18.32:8081_true,
+
+2021-09-08 23:15:34,257 INFO DEFAULT_GROUP@@seata-provider2 {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 23:15:34,257 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-provider2, ips: 10.242.18.32:8082_true,
+
+2021-09-08 23:15:35,667 INFO SEATA_GROUP@@seata-server {SYNC} {IP-NEW} cluster: default, new ips size: 1, content: [10.242.18.32:8091:unknown:default_1.0_true_false_default]
+
+2021-09-08 23:15:35,667 INFO [IP-UPDATED] namespace: public, service: SEATA_GROUP@@seata-server, ips: 10.242.18.32:8091_true,
+
+2021-09-08 23:15:35,974 INFO DEFAULT_GROUP@@seata-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.242.18.32:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-09-08 23:15:35,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@seata-consumer, ips: 10.242.18.32:8080_true,
+
+2021-09-08 23:15:59,806 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631114140980
+
+2021-09-08 23:15:59,806 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631114144278
+
+2021-09-08 23:15:59,806 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631114140674
+
+2021-09-08 23:15:59,807 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631114144278
+
+2021-09-08 23:15:59,807 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+
+2021-09-08 23:15:59,807 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:15:59,832 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:15:59,841 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:59:01,060 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8082@DEFAULT@DEFAULT_GROUP@@seata-provider2, region: unknown, msg: client timeout after 15000, last beat: 1631116725405
+
+2021-09-08 23:59:01,060 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8081@DEFAULT@DEFAULT_GROUP@@seata-provider1, region: unknown, msg: client timeout after 15000, last beat: 1631116725405
+
+2021-09-08 23:59:01,061 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8080@DEFAULT@DEFAULT_GROUP@@seata-consumer, region: unknown, msg: client timeout after 15000, last beat: 1631116725406
+
+2021-09-08 23:59:01,061 INFO service: DEFAULT_GROUP@@seata-provider2 {POS} {IP-ENABLED} valid: 10.242.18.32:8082@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:59:01,061 INFO {POS} {IP-DISABLED} valid: 10.242.18.32:8091@default@SEATA_GROUP@@seata-server, region: unknown, msg: client timeout after 15000, last beat: 1631116725408
+
+2021-09-08 23:59:01,069 INFO service: DEFAULT_GROUP@@seata-provider1 {POS} {IP-ENABLED} valid: 10.242.18.32:8081@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:59:01,072 INFO service: DEFAULT_GROUP@@seata-consumer {POS} {IP-ENABLED} valid: 10.242.18.32:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2021-09-08 23:59:01,092 INFO service: SEATA_GROUP@@seata-server {POS} {IP-ENABLED} valid: 10.242.18.32:8091@default, region: unknown, msg: client beat ok
+

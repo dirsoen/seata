@@ -1,0 +1,1016 @@
+2021-09-08 11:43:00,809 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 11:51:12,981 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 12:08:42,212 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 15:08:03,398 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 15:08:03,426 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,192633503371769
+
+2021-09-08 15:08:03,426 INFO send udp packet: 127.0.0.1,51036,192633503371769
+
+2021-09-08 15:08:03,434 INFO received ack: {"type": "push-ack", "lastRefTime":"192633503371769", "data":""} from: 127.0.0.1:51036, cost: 8 ms, unacked: 0, total push: 1
+
+2021-09-08 15:08:54,037 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 15:08:54,038 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:62882, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62882,192684144398499
+
+2021-09-08 15:08:54,038 INFO send udp packet: 127.0.0.1,62882,192684144398499
+
+2021-09-08 15:08:54,045 INFO received ack: {"type": "push-ack", "lastRefTime":"192684144398499", "data":""} from: 127.0.0.1:62882, cost: 7 ms, unacked: 0, total push: 2
+
+2021-09-08 15:10:52,412 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:10:52,413 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:52959, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,52959,192802535179564
+
+2021-09-08 15:10:52,413 INFO send udp packet: 127.0.0.1,52959,192802535179564
+
+2021-09-08 15:10:52,418 INFO received ack: {"type": "push-ack", "lastRefTime":"192802535179564", "data":""} from: 127.0.0.1:52959, cost: 5 ms, unacked: 0, total push: 3
+
+2021-09-08 15:16:46,869 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:16:46,870 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:52959, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,52959,193157002281176
+
+2021-09-08 15:16:46,870 INFO send udp packet: 127.0.0.1,52959,193157002281176
+
+2021-09-08 15:16:46,870 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193157002281176
+
+2021-09-08 15:16:46,870 INFO send udp packet: 127.0.0.1,51036,193157002281176
+
+2021-09-08 15:16:46,875 INFO received ack: {"type": "push-ack", "lastRefTime":"193157002281176", "data":""} from: 127.0.0.1:51036, cost: 5 ms, unacked: 1, total push: 5
+
+2021-09-08 15:16:46,875 INFO received ack: {"type": "push-ack", "lastRefTime":"193157002281176", "data":""} from: 127.0.0.1:52959, cost: 5 ms, unacked: 0, total push: 5
+
+2021-09-08 15:17:07,367 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:17:07,367 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:60083, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,60083,193177500522141
+
+2021-09-08 15:17:07,367 INFO send udp packet: 127.0.0.1,60083,193177500522141
+
+2021-09-08 15:17:07,368 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193177500522141
+
+2021-09-08 15:17:07,368 INFO send udp packet: 127.0.0.1,51036,193177500522141
+
+2021-09-08 15:17:07,369 INFO received ack: {"type": "push-ack", "lastRefTime":"193177500522141", "data":""} from: 127.0.0.1:51036, cost: 1 ms, unacked: 1, total push: 7
+
+2021-09-08 15:17:07,372 INFO received ack: {"type": "push-ack", "lastRefTime":"193177500522141", "data":""} from: 127.0.0.1:60083, cost: 5 ms, unacked: 0, total push: 7
+
+2021-09-08 15:23:42,797 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:23:42,798 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:60083, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,60083,193572942761498
+
+2021-09-08 15:23:42,798 INFO send udp packet: 127.0.0.1,60083,193572942761498
+
+2021-09-08 15:23:42,799 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193572942761498
+
+2021-09-08 15:23:42,799 INFO send udp packet: 127.0.0.1,51036,193572942761498
+
+2021-09-08 15:23:42,802 INFO received ack: {"type": "push-ack", "lastRefTime":"193572942761498", "data":""} from: 127.0.0.1:51036, cost: 3 ms, unacked: 1, total push: 9
+
+2021-09-08 15:23:42,803 INFO received ack: {"type": "push-ack", "lastRefTime":"193572942761498", "data":""} from: 127.0.0.1:60083, cost: 5 ms, unacked: 0, total push: 9
+
+2021-09-08 15:24:03,176 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:24:03,177 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:65053, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,65053,193593321467072
+
+2021-09-08 15:24:03,177 INFO send udp packet: 127.0.0.1,65053,193593321467072
+
+2021-09-08 15:24:03,177 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193593321467072
+
+2021-09-08 15:24:03,178 INFO send udp packet: 127.0.0.1,51036,193593321467072
+
+2021-09-08 15:24:03,180 INFO received ack: {"type": "push-ack", "lastRefTime":"193593321467072", "data":""} from: 127.0.0.1:51036, cost: 2 ms, unacked: 1, total push: 11
+
+2021-09-08 15:24:03,182 INFO received ack: {"type": "push-ack", "lastRefTime":"193593321467072", "data":""} from: 127.0.0.1:65053, cost: 5 ms, unacked: 0, total push: 11
+
+2021-09-08 15:25:41,930 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:25:41,931 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:65053, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,65053,193692127020413
+
+2021-09-08 15:25:41,931 INFO send udp packet: 127.0.0.1,65053,193692127020413
+
+2021-09-08 15:25:41,932 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193692127020413
+
+2021-09-08 15:25:41,932 INFO send udp packet: 127.0.0.1,51036,193692127020413
+
+2021-09-08 15:25:41,935 INFO received ack: {"type": "push-ack", "lastRefTime":"193692127020413", "data":""} from: 127.0.0.1:51036, cost: 3 ms, unacked: 1, total push: 13
+
+2021-09-08 15:25:41,937 INFO received ack: {"type": "push-ack", "lastRefTime":"193692127020413", "data":""} from: 127.0.0.1:65053, cost: 6 ms, unacked: 0, total push: 13
+
+2021-09-08 15:26:03,236 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 15:26:03,236 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,193713432703516
+
+2021-09-08 15:26:03,236 INFO send udp packet: 127.0.0.1,56889,193713432703516
+
+2021-09-08 15:26:03,236 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193713432703516
+
+2021-09-08 15:26:03,236 INFO send udp packet: 127.0.0.1,51036,193713432703516
+
+2021-09-08 15:26:03,241 INFO received ack: {"type": "push-ack", "lastRefTime":"193713432703516", "data":""} from: 127.0.0.1:56889, cost: 5 ms, unacked: 1, total push: 15
+
+2021-09-08 15:26:03,242 INFO received ack: {"type": "push-ack", "lastRefTime":"193713432703516", "data":""} from: 127.0.0.1:51036, cost: 6 ms, unacked: 0, total push: 15
+
+2021-09-08 15:26:08,794 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 15:26:08,796 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193718992665265
+
+2021-09-08 15:26:08,796 INFO send udp packet: 127.0.0.1,51036,193718992665265
+
+2021-09-08 15:26:08,796 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:62882, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62882,193718992665265
+
+2021-09-08 15:26:08,796 INFO send udp packet: 127.0.0.1,62882,193718992665265
+
+2021-09-08 15:26:08,800 INFO received ack: {"type": "push-ack", "lastRefTime":"193718992665265", "data":""} from: 127.0.0.1:51036, cost: 4 ms, unacked: 1, total push: 17
+
+2021-09-08 15:26:08,801 INFO received ack: {"type": "push-ack", "lastRefTime":"193718992665265", "data":""} from: 127.0.0.1:62882, cost: 5 ms, unacked: 0, total push: 17
+
+2021-09-08 15:26:26,713 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 15:26:26,714 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,193736911376310
+
+2021-09-08 15:26:26,714 INFO send udp packet: 127.0.0.1,51036,193736911376310
+
+2021-09-08 15:26:26,714 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:57621, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,57621,193736911376310
+
+2021-09-08 15:26:26,714 INFO send udp packet: 127.0.0.1,57621,193736911376310
+
+2021-09-08 15:26:26,716 INFO received ack: {"type": "push-ack", "lastRefTime":"193736911376310", "data":""} from: 127.0.0.1:51036, cost: 2 ms, unacked: 1, total push: 19
+
+2021-09-08 15:26:26,718 INFO received ack: {"type": "push-ack", "lastRefTime":"193736911376310", "data":""} from: 127.0.0.1:57621, cost: 4 ms, unacked: 0, total push: 19
+
+2021-09-08 15:31:06,460 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 15:31:06,462 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,194016669062806
+
+2021-09-08 15:31:06,462 INFO send udp packet: 127.0.0.1,51036,194016669062806
+
+2021-09-08 15:31:06,462 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:57621, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,57621,194016669062806
+
+2021-09-08 15:31:06,462 INFO send udp packet: 127.0.0.1,57621,194016669062806
+
+2021-09-08 15:31:06,465 INFO received ack: {"type": "push-ack", "lastRefTime":"194016669062806", "data":""} from: 127.0.0.1:51036, cost: 3 ms, unacked: 1, total push: 21
+
+2021-09-08 15:31:06,466 INFO received ack: {"type": "push-ack", "lastRefTime":"194016669062806", "data":""} from: 127.0.0.1:57621, cost: 4 ms, unacked: 0, total push: 21
+
+2021-09-08 15:31:26,503 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 15:31:26,504 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,194036711916594
+
+2021-09-08 15:31:26,504 INFO send udp packet: 127.0.0.1,56552,194036711916594
+
+2021-09-08 15:31:26,504 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,194036711916594
+
+2021-09-08 15:31:26,504 INFO send udp packet: 127.0.0.1,51036,194036711916594
+
+2021-09-08 15:31:26,506 INFO received ack: {"type": "push-ack", "lastRefTime":"194036711916594", "data":""} from: 127.0.0.1:51036, cost: 2 ms, unacked: 1, total push: 23
+
+2021-09-08 15:31:26,508 INFO received ack: {"type": "push-ack", "lastRefTime":"194036711916594", "data":""} from: 127.0.0.1:56552, cost: 4 ms, unacked: 0, total push: 23
+
+2021-09-08 16:44:09,029 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 16:44:09,030 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 16:44:09,030 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,198203311955272
+
+2021-09-08 16:44:09,031 INFO send udp packet: 127.0.0.1,51036,198203311955272
+
+2021-09-08 16:44:09,038 INFO received ack: {"type": "push-ack", "lastRefTime":"198203311955272", "data":""} from: 127.0.0.1:51036, cost: 7 ms, unacked: 0, total push: 24
+
+2021-09-08 16:44:10,554 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 16:44:12,407 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 16:44:12,407 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,198206419474150
+
+2021-09-08 16:44:12,407 INFO send udp packet: 127.0.0.1,51036,198206419474150
+
+2021-09-08 16:44:12,408 INFO received ack: {"type": "push-ack", "lastRefTime":"198206419474150", "data":""} from: 127.0.0.1:51036, cost: 1 ms, unacked: 0, total push: 25
+
+2021-09-08 18:59:47,858 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 18:59:47,859 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,204921125534177
+
+2021-09-08 18:59:47,860 INFO send udp packet: 127.0.0.1,54060,204921125534177
+
+2021-09-08 18:59:47,860 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,204921125534177
+
+2021-09-08 18:59:47,860 INFO send udp packet: 127.0.0.1,62437,204921125534177
+
+2021-09-08 18:59:47,860 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 18:59:47,861 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,204921127942416
+
+2021-09-08 18:59:47,861 INFO send udp packet: 127.0.0.1,56889,204921127942416
+
+2021-09-08 18:59:47,862 INFO received ack: {"type": "push-ack", "lastRefTime":"204921127942416", "data":""} from: 127.0.0.1:56889, cost: 1 ms, unacked: 2, total push: 28
+
+2021-09-08 18:59:47,934 INFO received ack: {"type": "push-ack", "lastRefTime":"204921125534177", "data":""} from: 127.0.0.1:62437, cost: 74 ms, unacked: 1, total push: 28
+
+2021-09-08 18:59:47,934 INFO received ack: {"type": "push-ack", "lastRefTime":"204921125534177", "data":""} from: 127.0.0.1:54060, cost: 74 ms, unacked: 0, total push: 28
+
+2021-09-08 18:59:49,837 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 18:59:50,393 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 18:59:50,394 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,204923540703471
+
+2021-09-08 18:59:50,394 INFO send udp packet: 127.0.0.1,61624,204923540703471
+
+2021-09-08 18:59:50,394 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,204923540703471
+
+2021-09-08 18:59:50,394 INFO send udp packet: 127.0.0.1,54060,204923540703471
+
+2021-09-08 18:59:50,394 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,204923540703471
+
+2021-09-08 18:59:50,394 INFO send udp packet: 127.0.0.1,62437,204923540703471
+
+2021-09-08 18:59:50,396 INFO received ack: {"type": "push-ack", "lastRefTime":"204923540703471", "data":""} from: 127.0.0.1:61624, cost: 2 ms, unacked: 2, total push: 31
+
+2021-09-08 18:59:50,396 INFO received ack: {"type": "push-ack", "lastRefTime":"204923540703471", "data":""} from: 127.0.0.1:54060, cost: 2 ms, unacked: 1, total push: 31
+
+2021-09-08 18:59:50,397 INFO received ack: {"type": "push-ack", "lastRefTime":"204923540703471", "data":""} from: 127.0.0.1:62437, cost: 3 ms, unacked: 0, total push: 31
+
+2021-09-08 19:03:58,162 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 19:03:58,163 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205031226318400
+
+2021-09-08 19:03:58,163 INFO send udp packet: 127.0.0.1,54060,205031226318400
+
+2021-09-08 19:03:58,163 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205031226318400
+
+2021-09-08 19:03:58,163 INFO send udp packet: 127.0.0.1,62437,205031226318400
+
+2021-09-08 19:03:58,164 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 19:03:58,164 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205031226825701
+
+2021-09-08 19:03:58,164 INFO send udp packet: 127.0.0.1,56889,205031226825701
+
+2021-09-08 19:03:58,164 INFO received ack: {"type": "push-ack", "lastRefTime":"205031226825701", "data":""} from: 127.0.0.1:56889, cost: 0 ms, unacked: 2, total push: 34
+
+2021-09-08 19:03:58,165 INFO received ack: {"type": "push-ack", "lastRefTime":"205031226318400", "data":""} from: 127.0.0.1:54060, cost: 2 ms, unacked: 1, total push: 34
+
+2021-09-08 19:03:58,168 INFO received ack: {"type": "push-ack", "lastRefTime":"205031226318400", "data":""} from: 127.0.0.1:62437, cost: 5 ms, unacked: 0, total push: 34
+
+2021-09-08 19:04:00,634 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 19:04:00,634 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205033696960157
+
+2021-09-08 19:04:00,634 INFO send udp packet: 127.0.0.1,61624,205033696960157
+
+2021-09-08 19:04:00,634 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205033696960157
+
+2021-09-08 19:04:00,634 INFO send udp packet: 127.0.0.1,54060,205033696960157
+
+2021-09-08 19:04:00,634 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205033696960157
+
+2021-09-08 19:04:00,634 INFO send udp packet: 127.0.0.1,62437,205033696960157
+
+2021-09-08 19:04:00,635 INFO received ack: {"type": "push-ack", "lastRefTime":"205033696960157", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 2, total push: 37
+
+2021-09-08 19:04:00,636 INFO received ack: {"type": "push-ack", "lastRefTime":"205033696960157", "data":""} from: 127.0.0.1:54060, cost: 2 ms, unacked: 1, total push: 37
+
+2021-09-08 19:04:00,636 INFO received ack: {"type": "push-ack", "lastRefTime":"205033696960157", "data":""} from: 127.0.0.1:62437, cost: 2 ms, unacked: 0, total push: 37
+
+2021-09-08 19:35:33,687 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 19:35:33,688 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205131331047118
+
+2021-09-08 19:35:33,688 INFO send udp packet: 127.0.0.1,56889,205131331047118
+
+2021-09-08 19:35:33,688 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 19:35:33,688 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205131331602865
+
+2021-09-08 19:35:33,688 INFO send udp packet: 127.0.0.1,54060,205131331602865
+
+2021-09-08 19:35:33,688 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205131331602865
+
+2021-09-08 19:35:33,688 INFO send udp packet: 127.0.0.1,62437,205131331602865
+
+2021-09-08 19:35:33,689 INFO received ack: {"type": "push-ack", "lastRefTime":"205131331047118", "data":""} from: 127.0.0.1:56889, cost: 1 ms, unacked: 2, total push: 40
+
+2021-09-08 19:35:33,691 INFO received ack: {"type": "push-ack", "lastRefTime":"205131331602865", "data":""} from: 127.0.0.1:54060, cost: 3 ms, unacked: 1, total push: 40
+
+2021-09-08 19:35:33,692 INFO received ack: {"type": "push-ack", "lastRefTime":"205131331602865", "data":""} from: 127.0.0.1:62437, cost: 4 ms, unacked: 0, total push: 40
+
+2021-09-08 19:35:36,216 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 19:35:36,216 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205133862347245
+
+2021-09-08 19:35:36,216 INFO send udp packet: 127.0.0.1,61624,205133862347245
+
+2021-09-08 19:35:36,216 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205133862347245
+
+2021-09-08 19:35:36,216 INFO send udp packet: 127.0.0.1,54060,205133862347245
+
+2021-09-08 19:35:36,216 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205133862347245
+
+2021-09-08 19:35:36,216 INFO send udp packet: 127.0.0.1,62437,205133862347245
+
+2021-09-08 19:35:36,217 INFO received ack: {"type": "push-ack", "lastRefTime":"205133862347245", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 2, total push: 43
+
+2021-09-08 19:35:36,218 INFO received ack: {"type": "push-ack", "lastRefTime":"205133862347245", "data":""} from: 127.0.0.1:62437, cost: 2 ms, unacked: 1, total push: 43
+
+2021-09-08 19:35:36,218 INFO received ack: {"type": "push-ack", "lastRefTime":"205133862347245", "data":""} from: 127.0.0.1:54060, cost: 2 ms, unacked: 0, total push: 43
+
+2021-09-08 19:36:04,910 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 19:36:04,917 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205162582092540
+
+2021-09-08 19:36:04,918 INFO send udp packet: 127.0.0.1,61624,205162582092540
+
+2021-09-08 19:36:04,925 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205162582092540
+
+2021-09-08 19:36:04,925 INFO send udp packet: 127.0.0.1,54060,205162582092540
+
+2021-09-08 19:36:04,927 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205162582092540
+
+2021-09-08 19:36:04,928 INFO send udp packet: 127.0.0.1,62437,205162582092540
+
+2021-09-08 19:36:04,931 INFO received ack: {"type": "push-ack", "lastRefTime":"205162582092540", "data":""} from: 127.0.0.1:61624, cost: 13 ms, unacked: 2, total push: 46
+
+2021-09-08 19:36:04,937 INFO received ack: {"type": "push-ack", "lastRefTime":"205162582092540", "data":""} from: 127.0.0.1:54060, cost: 12 ms, unacked: 1, total push: 46
+
+2021-09-08 19:36:04,942 INFO received ack: {"type": "push-ack", "lastRefTime":"205162582092540", "data":""} from: 127.0.0.1:62437, cost: 13 ms, unacked: 0, total push: 46
+
+2021-09-08 19:56:43,890 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 20:28:20,635 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 20:28:53,190 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 20:28:53,193 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205363725930555
+
+2021-09-08 20:28:53,193 INFO send udp packet: 127.0.0.1,56889,205363725930555
+
+2021-09-08 20:28:53,195 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205363725930555
+
+2021-09-08 20:28:53,196 INFO send udp packet: 127.0.0.1,51036,205363725930555
+
+2021-09-08 20:28:53,197 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 20:28:53,198 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205363731598568
+
+2021-09-08 20:28:53,198 INFO send udp packet: 127.0.0.1,51036,205363731598568
+
+2021-09-08 20:28:53,199 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 20:28:53,200 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205363733828819
+
+2021-09-08 20:28:53,201 INFO send udp packet: 127.0.0.1,61624,205363733828819
+
+2021-09-08 20:28:53,202 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205363733828819
+
+2021-09-08 20:28:53,203 INFO send udp packet: 127.0.0.1,54060,205363733828819
+
+2021-09-08 20:28:53,205 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205363733828819
+
+2021-09-08 20:28:53,205 INFO send udp packet: 127.0.0.1,62437,205363733828819
+
+2021-09-08 20:28:53,206 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 20:28:53,207 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,205363740298506
+
+2021-09-08 20:28:53,207 INFO received ack: {"type": "push-ack", "lastRefTime":"205363725930555", "data":""} from: 127.0.0.1:51036, cost: 11 ms, unacked: 5, total push: 52
+
+2021-09-08 20:28:53,208 INFO send udp packet: 127.0.0.1,56552,205363740298506
+
+2021-09-08 20:28:53,210 INFO received ack: {"type": "push-ack", "lastRefTime":"205363733828819", "data":""} from: 127.0.0.1:61624, cost: 9 ms, unacked: 5, total push: 53
+
+2021-09-08 20:28:53,212 INFO received ack: {"type": "push-ack", "lastRefTime":"205363733828819", "data":""} from: 127.0.0.1:54060, cost: 9 ms, unacked: 4, total push: 53
+
+2021-09-08 20:28:53,214 INFO received ack: {"type": "push-ack", "lastRefTime":"205363733828819", "data":""} from: 127.0.0.1:62437, cost: 9 ms, unacked: 3, total push: 53
+
+2021-09-08 20:28:53,215 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205363740298506
+
+2021-09-08 20:28:53,215 INFO send udp packet: 127.0.0.1,51036,205363740298506
+
+2021-09-08 20:28:53,217 INFO received ack: {"type": "push-ack", "lastRefTime":"205363725930555", "data":""} from: 127.0.0.1:56889, cost: 24 ms, unacked: 3, total push: 54
+
+2021-09-08 20:28:53,221 INFO received ack: {"type": "push-ack", "lastRefTime":"205363731598568", "data":""} from: 127.0.0.1:51036, cost: 23 ms, unacked: 2, total push: 54
+
+2021-09-08 20:28:53,228 INFO received ack: {"type": "push-ack", "lastRefTime":"205363740298506", "data":""} from: 127.0.0.1:56552, cost: 20 ms, unacked: 1, total push: 54
+
+2021-09-08 20:28:53,235 INFO received ack: {"type": "push-ack", "lastRefTime":"205363740298506", "data":""} from: 127.0.0.1:51036, cost: 20 ms, unacked: 0, total push: 54
+
+2021-09-08 20:36:58,981 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 20:36:58,982 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205425192609566
+
+2021-09-08 20:36:58,982 INFO send udp packet: 127.0.0.1,61624,205425192609566
+
+2021-09-08 20:36:58,983 INFO received ack: {"type": "push-ack", "lastRefTime":"205425192609566", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 0, total push: 55
+
+2021-09-08 21:08:14,370 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:08:14,371 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205505284262885
+
+2021-09-08 21:08:14,371 INFO send udp packet: 127.0.0.1,61624,205505284262885
+
+2021-09-08 21:08:14,372 INFO received ack: {"type": "push-ack", "lastRefTime":"205505284262885", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 0, total push: 56
+
+2021-09-08 21:08:48,055 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:08:48,061 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205538995108559
+
+2021-09-08 21:08:48,062 INFO send udp packet: 127.0.0.1,56889,205538995108559
+
+2021-09-08 21:08:48,068 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205538995108559
+
+2021-09-08 21:08:48,069 INFO send udp packet: 127.0.0.1,51036,205538995108559
+
+2021-09-08 21:08:48,074 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 21:08:48,076 INFO received ack: {"type": "push-ack", "lastRefTime":"205538995108559", "data":""} from: 127.0.0.1:56889, cost: 14 ms, unacked: 1, total push: 58
+
+2021-09-08 21:08:48,076 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205539012395608
+
+2021-09-08 21:08:48,077 INFO send udp packet: 127.0.0.1,51036,205539012395608
+
+2021-09-08 21:08:48,078 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 21:08:48,079 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,205539015751816
+
+2021-09-08 21:08:48,080 INFO send udp packet: 127.0.0.1,56552,205539015751816
+
+2021-09-08 21:08:48,081 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205539015751816
+
+2021-09-08 21:08:48,082 INFO send udp packet: 127.0.0.1,51036,205539015751816
+
+2021-09-08 21:08:48,086 INFO received ack: {"type": "push-ack", "lastRefTime":"205538995108559", "data":""} from: 127.0.0.1:51036, cost: 17 ms, unacked: 3, total push: 61
+
+2021-09-08 21:08:48,090 INFO received ack: {"type": "push-ack", "lastRefTime":"205539015751816", "data":""} from: 127.0.0.1:56552, cost: 10 ms, unacked: 2, total push: 61
+
+2021-09-08 21:08:48,097 INFO received ack: {"type": "push-ack", "lastRefTime":"205539012395608", "data":""} from: 127.0.0.1:51036, cost: 20 ms, unacked: 1, total push: 61
+
+2021-09-08 21:08:48,108 INFO received ack: {"type": "push-ack", "lastRefTime":"205539015751816", "data":""} from: 127.0.0.1:51036, cost: 26 ms, unacked: 0, total push: 61
+
+2021-09-08 21:09:15,510 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:09:15,512 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205566451828782
+
+2021-09-08 21:09:15,513 INFO send udp packet: 127.0.0.1,56889,205566451828782
+
+2021-09-08 21:09:15,514 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205566451828782
+
+2021-09-08 21:09:15,515 INFO send udp packet: 127.0.0.1,51036,205566451828782
+
+2021-09-08 21:09:15,515 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 21:09:15,516 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205566456342038
+
+2021-09-08 21:09:15,517 INFO send udp packet: 127.0.0.1,51036,205566456342038
+
+2021-09-08 21:09:15,518 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 21:09:15,519 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,205566458928782
+
+2021-09-08 21:09:15,519 INFO send udp packet: 127.0.0.1,56552,205566458928782
+
+2021-09-08 21:09:15,521 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205566458928782
+
+2021-09-08 21:09:15,522 INFO send udp packet: 127.0.0.1,51036,205566458928782
+
+2021-09-08 21:09:15,523 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:09:15,524 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205566464130129
+
+2021-09-08 21:09:15,525 INFO send udp packet: 127.0.0.1,61624,205566464130129
+
+2021-09-08 21:09:15,526 INFO received ack: {"type": "push-ack", "lastRefTime":"205566451828782", "data":""} from: 127.0.0.1:56889, cost: 13 ms, unacked: 5, total push: 67
+
+2021-09-08 21:09:15,526 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205566464130129
+
+2021-09-08 21:09:15,528 INFO send udp packet: 127.0.0.1,54060,205566464130129
+
+2021-09-08 21:09:15,530 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205566464130129
+
+2021-09-08 21:09:15,530 INFO received ack: {"type": "push-ack", "lastRefTime":"205566451828782", "data":""} from: 127.0.0.1:51036, cost: 15 ms, unacked: 5, total push: 68
+
+2021-09-08 21:09:15,531 INFO send udp packet: 127.0.0.1,62437,205566464130129
+
+2021-09-08 21:09:15,533 INFO received ack: {"type": "push-ack", "lastRefTime":"205566458928782", "data":""} from: 127.0.0.1:56552, cost: 14 ms, unacked: 5, total push: 69
+
+2021-09-08 21:09:15,536 INFO received ack: {"type": "push-ack", "lastRefTime":"205566464130129", "data":""} from: 127.0.0.1:61624, cost: 11 ms, unacked: 4, total push: 69
+
+2021-09-08 21:09:15,538 INFO received ack: {"type": "push-ack", "lastRefTime":"205566456342038", "data":""} from: 127.0.0.1:51036, cost: 21 ms, unacked: 3, total push: 69
+
+2021-09-08 21:09:15,546 INFO received ack: {"type": "push-ack", "lastRefTime":"205566464130129", "data":""} from: 127.0.0.1:54060, cost: 18 ms, unacked: 2, total push: 69
+
+2021-09-08 21:09:15,548 INFO received ack: {"type": "push-ack", "lastRefTime":"205566464130129", "data":""} from: 127.0.0.1:62437, cost: 17 ms, unacked: 1, total push: 69
+
+2021-09-08 21:09:15,555 INFO received ack: {"type": "push-ack", "lastRefTime":"205566458928782", "data":""} from: 127.0.0.1:51036, cost: 33 ms, unacked: 0, total push: 69
+
+2021-09-08 21:30:01,586 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:48:31,736 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 21:48:31,757 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 21:48:31,758 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:48:31,758 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:48:32,803 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 21:48:34,518 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:48:34,848 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:48:59,769 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 21:48:59,771 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,205740971893782
+
+2021-09-08 21:48:59,772 INFO send udp packet: 127.0.0.1,56552,205740971893782
+
+2021-09-08 21:48:59,774 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205740971893782
+
+2021-09-08 21:48:59,775 INFO send udp packet: 127.0.0.1,51036,205740971893782
+
+2021-09-08 21:48:59,775 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 21:48:59,776 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205740977311176
+
+2021-09-08 21:48:59,777 INFO send udp packet: 127.0.0.1,61624,205740977311176
+
+2021-09-08 21:48:59,778 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205740977311176
+
+2021-09-08 21:48:59,779 INFO send udp packet: 127.0.0.1,54060,205740977311176
+
+2021-09-08 21:48:59,780 INFO received ack: {"type": "push-ack", "lastRefTime":"205740971893782", "data":""} from: 127.0.0.1:56552, cost: 8 ms, unacked: 3, total push: 73
+
+2021-09-08 21:48:59,781 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205740977311176
+
+2021-09-08 21:48:59,782 INFO send udp packet: 127.0.0.1,62437,205740977311176
+
+2021-09-08 21:48:59,783 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:48:59,785 INFO received ack: {"type": "push-ack", "lastRefTime":"205740977311176", "data":""} from: 127.0.0.1:61624, cost: 7 ms, unacked: 3, total push: 74
+
+2021-09-08 21:48:59,785 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205740985432785
+
+2021-09-08 21:48:59,786 INFO send udp packet: 127.0.0.1,56889,205740985432785
+
+2021-09-08 21:48:59,787 INFO received ack: {"type": "push-ack", "lastRefTime":"205740971893782", "data":""} from: 127.0.0.1:51036, cost: 12 ms, unacked: 3, total push: 75
+
+2021-09-08 21:48:59,789 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205740985432785
+
+2021-09-08 21:48:59,789 INFO send udp packet: 127.0.0.1,51036,205740985432785
+
+2021-09-08 21:48:59,790 INFO received ack: {"type": "push-ack", "lastRefTime":"205740977311176", "data":""} from: 127.0.0.1:54060, cost: 11 ms, unacked: 3, total push: 76
+
+2021-09-08 21:48:59,790 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 21:48:59,792 INFO received ack: {"type": "push-ack", "lastRefTime":"205740977311176", "data":""} from: 127.0.0.1:62437, cost: 10 ms, unacked: 2, total push: 76
+
+2021-09-08 21:48:59,792 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205740993209806
+
+2021-09-08 21:48:59,793 INFO send udp packet: 127.0.0.1,56889,205740993209806
+
+2021-09-08 21:48:59,794 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205740993209806
+
+2021-09-08 21:48:59,795 INFO send udp packet: 127.0.0.1,51036,205740993209806
+
+2021-09-08 21:48:59,801 INFO received ack: {"type": "push-ack", "lastRefTime":"205740985432785", "data":""} from: 127.0.0.1:51036, cost: 12 ms, unacked: 3, total push: 78
+
+2021-09-08 21:48:59,807 INFO received ack: {"type": "push-ack", "lastRefTime":"205740985432785", "data":""} from: 127.0.0.1:56889, cost: 21 ms, unacked: 2, total push: 78
+
+2021-09-08 21:48:59,811 INFO received ack: {"type": "push-ack", "lastRefTime":"205740993209806", "data":""} from: 127.0.0.1:51036, cost: 17 ms, unacked: 1, total push: 78
+
+2021-09-08 21:48:59,819 INFO received ack: {"type": "push-ack", "lastRefTime":"205740993209806", "data":""} from: 127.0.0.1:56889, cost: 26 ms, unacked: 0, total push: 78
+
+2021-09-08 21:49:20,526 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 21:49:20,528 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205761724281627
+
+2021-09-08 21:49:20,529 INFO send udp packet: 127.0.0.1,51036,205761724281627
+
+2021-09-08 21:49:20,541 INFO received ack: {"type": "push-ack", "lastRefTime":"205761724281627", "data":""} from: 127.0.0.1:51036, cost: 12 ms, unacked: 0, total push: 79
+
+2021-09-08 22:21:03,591 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:21:03,592 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,205874036293156
+
+2021-09-08 22:21:03,592 INFO send udp packet: 127.0.0.1,56889,205874036293156
+
+2021-09-08 22:21:03,592 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,205874036293156
+
+2021-09-08 22:21:03,592 INFO send udp packet: 127.0.0.1,51036,205874036293156
+
+2021-09-08 22:21:03,592 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:21:03,592 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,205874036994014
+
+2021-09-08 22:21:03,592 INFO send udp packet: 127.0.0.1,61624,205874036994014
+
+2021-09-08 22:21:03,593 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,205874036994014
+
+2021-09-08 22:21:03,593 INFO send udp packet: 127.0.0.1,54060,205874036994014
+
+2021-09-08 22:21:03,593 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,205874036994014
+
+2021-09-08 22:21:03,593 INFO send udp packet: 127.0.0.1,62437,205874036994014
+
+2021-09-08 22:21:03,593 INFO received ack: {"type": "push-ack", "lastRefTime":"205874036293156", "data":""} from: 127.0.0.1:56889, cost: 1 ms, unacked: 4, total push: 84
+
+2021-09-08 22:21:03,593 INFO received ack: {"type": "push-ack", "lastRefTime":"205874036994014", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 3, total push: 84
+
+2021-09-08 22:21:03,593 INFO received ack: {"type": "push-ack", "lastRefTime":"205874036293156", "data":""} from: 127.0.0.1:51036, cost: 1 ms, unacked: 2, total push: 84
+
+2021-09-08 22:21:03,594 INFO received ack: {"type": "push-ack", "lastRefTime":"205874036994014", "data":""} from: 127.0.0.1:54060, cost: 1 ms, unacked: 1, total push: 84
+
+2021-09-08 22:21:03,594 INFO received ack: {"type": "push-ack", "lastRefTime":"205874036994014", "data":""} from: 127.0.0.1:62437, cost: 1 ms, unacked: 0, total push: 84
+
+2021-09-08 22:41:09,358 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 22:41:09,358 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 22:41:09,358 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:41:09,358 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:41:43,921 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 22:41:43,928 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206016159602696
+
+2021-09-08 22:41:43,930 INFO send udp packet: 127.0.0.1,56552,206016159602696
+
+2021-09-08 22:41:43,934 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206016159602696
+
+2021-09-08 22:41:43,935 INFO send udp packet: 127.0.0.1,51036,206016159602696
+
+2021-09-08 22:41:43,936 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 22:41:43,938 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206016173464034
+
+2021-09-08 22:41:43,941 INFO send udp packet: 127.0.0.1,51036,206016173464034
+
+2021-09-08 22:41:43,942 INFO received ack: {"type": "push-ack", "lastRefTime":"206016159602696", "data":""} from: 127.0.0.1:56552, cost: 13 ms, unacked: 2, total push: 87
+
+2021-09-08 22:41:43,942 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:41:43,944 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206016179601655
+
+2021-09-08 22:41:43,945 INFO send udp packet: 127.0.0.1,61624,206016179601655
+
+2021-09-08 22:41:43,947 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206016179601655
+
+2021-09-08 22:41:43,947 INFO send udp packet: 127.0.0.1,54060,206016179601655
+
+2021-09-08 22:41:43,949 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206016179601655
+
+2021-09-08 22:41:43,949 INFO send udp packet: 127.0.0.1,62437,206016179601655
+
+2021-09-08 22:41:43,949 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:41:43,951 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206016186117167
+
+2021-09-08 22:41:43,951 INFO send udp packet: 127.0.0.1,56889,206016186117167
+
+2021-09-08 22:41:43,989 INFO received ack: {"type": "push-ack", "lastRefTime":"206016179601655", "data":""} from: 127.0.0.1:61624, cost: 44 ms, unacked: 5, total push: 91
+
+2021-09-08 22:41:43,990 INFO received ack: {"type": "push-ack", "lastRefTime":"206016159602696", "data":""} from: 127.0.0.1:51036, cost: 55 ms, unacked: 4, total push: 91
+
+2021-09-08 22:41:43,991 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206016186117167
+
+2021-09-08 22:41:43,991 INFO send udp packet: 127.0.0.1,51036,206016186117167
+
+2021-09-08 22:41:43,992 INFO received ack: {"type": "push-ack", "lastRefTime":"206016179601655", "data":""} from: 127.0.0.1:62437, cost: 43 ms, unacked: 4, total push: 92
+
+2021-09-08 22:41:43,993 INFO received ack: {"type": "push-ack", "lastRefTime":"206016179601655", "data":""} from: 127.0.0.1:54060, cost: 46 ms, unacked: 3, total push: 92
+
+2021-09-08 22:41:43,994 INFO received ack: {"type": "push-ack", "lastRefTime":"206016173464034", "data":""} from: 127.0.0.1:51036, cost: 53 ms, unacked: 2, total push: 92
+
+2021-09-08 22:41:43,999 INFO received ack: {"type": "push-ack", "lastRefTime":"206016186117167", "data":""} from: 127.0.0.1:56889, cost: 48 ms, unacked: 1, total push: 92
+
+2021-09-08 22:41:44,004 INFO received ack: {"type": "push-ack", "lastRefTime":"206016186117167", "data":""} from: 127.0.0.1:51036, cost: 13 ms, unacked: 0, total push: 92
+
+2021-09-08 22:58:49,019 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:58:49,020 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 22:59:26,780 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 22:59:26,794 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 22:59:26,796 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206116000874953
+
+2021-09-08 22:59:26,815 INFO send udp packet: 127.0.0.1,56552,206116000874953
+
+2021-09-08 22:59:26,818 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206116000874953
+
+2021-09-08 22:59:26,823 INFO send udp packet: 127.0.0.1,51036,206116000874953
+
+2021-09-08 22:59:26,824 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:59:26,824 INFO received ack: {"type": "push-ack", "lastRefTime":"206116000874953", "data":""} from: 127.0.0.1:56552, cost: 9 ms, unacked: 1, total push: 94
+
+2021-09-08 22:59:26,825 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206116030155053
+
+2021-09-08 22:59:26,826 INFO send udp packet: 127.0.0.1,61624,206116030155053
+
+2021-09-08 22:59:26,827 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206116030155053
+
+2021-09-08 22:59:26,828 INFO send udp packet: 127.0.0.1,54060,206116030155053
+
+2021-09-08 22:59:26,829 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206116030155053
+
+2021-09-08 22:59:26,830 INFO send udp packet: 127.0.0.1,62437,206116030155053
+
+2021-09-08 22:59:26,830 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:59:26,831 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206116036586090
+
+2021-09-08 22:59:26,832 INFO send udp packet: 127.0.0.1,61624,206116036586090
+
+2021-09-08 22:59:26,834 INFO received ack: {"type": "push-ack", "lastRefTime":"206116030155053", "data":""} from: 127.0.0.1:61624, cost: 8 ms, unacked: 4, total push: 98
+
+2021-09-08 22:59:26,834 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206116036586090
+
+2021-09-08 22:59:26,837 INFO send udp packet: 127.0.0.1,54060,206116036586090
+
+2021-09-08 22:59:26,839 INFO received ack: {"type": "push-ack", "lastRefTime":"206116030155053", "data":""} from: 127.0.0.1:54060, cost: 10 ms, unacked: 4, total push: 99
+
+2021-09-08 22:59:26,841 INFO received ack: {"type": "push-ack", "lastRefTime":"206116036586090", "data":""} from: 127.0.0.1:61624, cost: 9 ms, unacked: 3, total push: 99
+
+2021-09-08 22:59:26,844 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206116036586090
+
+2021-09-08 22:59:26,845 INFO send udp packet: 127.0.0.1,62437,206116036586090
+
+2021-09-08 22:59:26,847 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:59:26,848 INFO received ack: {"type": "push-ack", "lastRefTime":"206116036586090", "data":""} from: 127.0.0.1:54060, cost: 11 ms, unacked: 3, total push: 100
+
+2021-09-08 22:59:26,852 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206116057260682
+
+2021-09-08 22:59:26,881 INFO send udp packet: 127.0.0.1,56889,206116057260682
+
+2021-09-08 22:59:26,888 INFO received ack: {"type": "push-ack", "lastRefTime":"206116030155053", "data":""} from: 127.0.0.1:62437, cost: 58 ms, unacked: 3, total push: 101
+
+2021-09-08 22:59:26,900 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206116057260682
+
+2021-09-08 22:59:26,936 INFO send udp packet: 127.0.0.1,51036,206116057260682
+
+2021-09-08 22:59:26,936 INFO received ack: {"type": "push-ack", "lastRefTime":"206116000874953", "data":""} from: 127.0.0.1:51036, cost: 113 ms, unacked: 3, total push: 102
+
+2021-09-08 22:59:26,937 INFO received ack: {"type": "push-ack", "lastRefTime":"206116036586090", "data":""} from: 127.0.0.1:62437, cost: 92 ms, unacked: 2, total push: 102
+
+2021-09-08 22:59:26,938 INFO received ack: {"type": "push-ack", "lastRefTime":"206116057260682", "data":""} from: 127.0.0.1:56889, cost: 57 ms, unacked: 1, total push: 102
+
+2021-09-08 22:59:26,947 INFO received ack: {"type": "push-ack", "lastRefTime":"206116057260682", "data":""} from: 127.0.0.1:51036, cost: 12 ms, unacked: 0, total push: 102
+
+2021-09-08 22:59:53,554 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 22:59:53,554 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206142761406723
+
+2021-09-08 22:59:53,555 INFO send udp packet: 127.0.0.1,61624,206142761406723
+
+2021-09-08 22:59:53,555 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206142761406723
+
+2021-09-08 22:59:53,555 INFO send udp packet: 127.0.0.1,54060,206142761406723
+
+2021-09-08 22:59:53,556 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206142761406723
+
+2021-09-08 22:59:53,556 INFO send udp packet: 127.0.0.1,62437,206142761406723
+
+2021-09-08 22:59:53,556 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 22:59:53,556 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206142763143496
+
+2021-09-08 22:59:53,556 INFO send udp packet: 127.0.0.1,56552,206142763143496
+
+2021-09-08 22:59:53,556 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206142763143496
+
+2021-09-08 22:59:53,556 INFO send udp packet: 127.0.0.1,51036,206142763143496
+
+2021-09-08 22:59:53,557 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 22:59:53,557 INFO received ack: {"type": "push-ack", "lastRefTime":"206142761406723", "data":""} from: 127.0.0.1:61624, cost: 2 ms, unacked: 4, total push: 107
+
+2021-09-08 22:59:53,557 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206142764002454
+
+2021-09-08 22:59:53,557 INFO send udp packet: 127.0.0.1,51036,206142764002454
+
+2021-09-08 22:59:53,557 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 22:59:53,557 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206142764471883
+
+2021-09-08 22:59:53,558 INFO send udp packet: 127.0.0.1,56889,206142764471883
+
+2021-09-08 22:59:53,558 INFO received ack: {"type": "push-ack", "lastRefTime":"206142761406723", "data":""} from: 127.0.0.1:54060, cost: 3 ms, unacked: 5, total push: 109
+
+2021-09-08 22:59:53,558 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206142764471883
+
+2021-09-08 22:59:53,558 INFO send udp packet: 127.0.0.1,51036,206142764471883
+
+2021-09-08 22:59:53,558 INFO received ack: {"type": "push-ack", "lastRefTime":"206142763143496", "data":""} from: 127.0.0.1:56552, cost: 2 ms, unacked: 5, total push: 110
+
+2021-09-08 22:59:53,558 INFO received ack: {"type": "push-ack", "lastRefTime":"206142761406723", "data":""} from: 127.0.0.1:62437, cost: 2 ms, unacked: 4, total push: 110
+
+2021-09-08 22:59:53,559 INFO received ack: {"type": "push-ack", "lastRefTime":"206142763143496", "data":""} from: 127.0.0.1:51036, cost: 3 ms, unacked: 3, total push: 110
+
+2021-09-08 22:59:53,560 INFO received ack: {"type": "push-ack", "lastRefTime":"206142764471883", "data":""} from: 127.0.0.1:56889, cost: 2 ms, unacked: 2, total push: 110
+
+2021-09-08 22:59:53,561 INFO received ack: {"type": "push-ack", "lastRefTime":"206142764002454", "data":""} from: 127.0.0.1:51036, cost: 4 ms, unacked: 1, total push: 110
+
+2021-09-08 22:59:53,563 INFO received ack: {"type": "push-ack", "lastRefTime":"206142764471883", "data":""} from: 127.0.0.1:51036, cost: 5 ms, unacked: 0, total push: 110
+
+2021-09-08 23:15:34,553 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 23:15:34,554 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206182800942042
+
+2021-09-08 23:15:34,554 INFO send udp packet: 127.0.0.1,61624,206182800942042
+
+2021-09-08 23:15:34,554 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206182800942042
+
+2021-09-08 23:15:34,554 INFO send udp packet: 127.0.0.1,54060,206182800942042
+
+2021-09-08 23:15:34,554 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206182800942042
+
+2021-09-08 23:15:34,554 INFO send udp packet: 127.0.0.1,62437,206182800942042
+
+2021-09-08 23:15:34,554 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 23:15:34,555 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206182801840573
+
+2021-09-08 23:15:34,555 INFO send udp packet: 127.0.0.1,56889,206182801840573
+
+2021-09-08 23:15:34,555 INFO received ack: {"type": "push-ack", "lastRefTime":"206182800942042", "data":""} from: 127.0.0.1:61624, cost: 1 ms, unacked: 3, total push: 114
+
+2021-09-08 23:15:34,555 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206182801840573
+
+2021-09-08 23:15:34,555 INFO send udp packet: 127.0.0.1,51036,206182801840573
+
+2021-09-08 23:15:34,555 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 23:15:34,555 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206182802225486
+
+2021-09-08 23:15:34,555 INFO send udp packet: 127.0.0.1,56552,206182802225486
+
+2021-09-08 23:15:34,555 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206182802225486
+
+2021-09-08 23:15:34,555 INFO send udp packet: 127.0.0.1,51036,206182802225486
+
+2021-09-08 23:15:34,555 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 23:15:34,555 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206182802442844
+
+2021-09-08 23:15:34,555 INFO send udp packet: 127.0.0.1,51036,206182802442844
+
+2021-09-08 23:15:34,555 INFO received ack: {"type": "push-ack", "lastRefTime":"206182800942042", "data":""} from: 127.0.0.1:54060, cost: 1 ms, unacked: 6, total push: 118
+
+2021-09-08 23:15:34,556 INFO received ack: {"type": "push-ack", "lastRefTime":"206182800942042", "data":""} from: 127.0.0.1:62437, cost: 2 ms, unacked: 5, total push: 118
+
+2021-09-08 23:15:34,557 INFO received ack: {"type": "push-ack", "lastRefTime":"206182802225486", "data":""} from: 127.0.0.1:56552, cost: 2 ms, unacked: 4, total push: 118
+
+2021-09-08 23:15:34,557 INFO received ack: {"type": "push-ack", "lastRefTime":"206182801840573", "data":""} from: 127.0.0.1:51036, cost: 2 ms, unacked: 3, total push: 118
+
+2021-09-08 23:15:34,559 INFO received ack: {"type": "push-ack", "lastRefTime":"206182802225486", "data":""} from: 127.0.0.1:51036, cost: 4 ms, unacked: 2, total push: 118
+
+2021-09-08 23:15:34,559 INFO received ack: {"type": "push-ack", "lastRefTime":"206182802442844", "data":""} from: 127.0.0.1:51036, cost: 4 ms, unacked: 1, total push: 118
+
+2021-09-08 23:15:34,564 INFO received ack: {"type": "push-ack", "lastRefTime":"206182801840573", "data":""} from: 127.0.0.1:56889, cost: 9 ms, unacked: 0, total push: 118
+
+2021-09-08 23:15:36,671 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 23:15:36,671 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206184918148497
+
+2021-09-08 23:15:36,671 INFO send udp packet: 127.0.0.1,61624,206184918148497
+
+2021-09-08 23:15:36,671 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206184918148497
+
+2021-09-08 23:15:36,671 INFO send udp packet: 127.0.0.1,54060,206184918148497
+
+2021-09-08 23:15:36,671 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206184918148497
+
+2021-09-08 23:15:36,671 INFO send udp packet: 127.0.0.1,62437,206184918148497
+
+2021-09-08 23:15:36,673 INFO received ack: {"type": "push-ack", "lastRefTime":"206184918148497", "data":""} from: 127.0.0.1:54060, cost: 2 ms, unacked: 2, total push: 121
+
+2021-09-08 23:15:36,673 INFO received ack: {"type": "push-ack", "lastRefTime":"206184918148497", "data":""} from: 127.0.0.1:62437, cost: 2 ms, unacked: 1, total push: 121
+
+2021-09-08 23:15:36,673 INFO received ack: {"type": "push-ack", "lastRefTime":"206184918148497", "data":""} from: 127.0.0.1:61624, cost: 2 ms, unacked: 0, total push: 121
+
+2021-09-08 23:15:36,978 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 23:15:36,978 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206185225599548
+
+2021-09-08 23:15:36,979 INFO send udp packet: 127.0.0.1,51036,206185225599548
+
+2021-09-08 23:15:36,980 INFO received ack: {"type": "push-ack", "lastRefTime":"206185225599548", "data":""} from: 127.0.0.1:51036, cost: 1 ms, unacked: 0, total push: 122
+
+2021-09-08 23:16:08,208 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 23:16:08,211 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206216457156257
+
+2021-09-08 23:16:08,212 INFO send udp packet: 127.0.0.1,51036,206216457156257
+
+2021-09-08 23:16:08,213 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 23:16:08,215 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206216461831637
+
+2021-09-08 23:16:08,215 INFO send udp packet: 127.0.0.1,61624,206216461831637
+
+2021-09-08 23:16:08,216 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206216461831637
+
+2021-09-08 23:16:08,217 INFO send udp packet: 127.0.0.1,54060,206216461831637
+
+2021-09-08 23:16:08,220 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206216461831637
+
+2021-09-08 23:16:08,221 INFO send udp packet: 127.0.0.1,62437,206216461831637
+
+2021-09-08 23:16:08,222 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 23:16:08,224 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206216470968973
+
+2021-09-08 23:16:08,225 INFO send udp packet: 127.0.0.1,56889,206216470968973
+
+2021-09-08 23:16:08,232 INFO received ack: {"type": "push-ack", "lastRefTime":"206216461831637", "data":""} from: 127.0.0.1:54060, cost: 15 ms, unacked: 4, total push: 127
+
+2021-09-08 23:16:08,239 INFO received ack: {"type": "push-ack", "lastRefTime":"206216461831637", "data":""} from: 127.0.0.1:61624, cost: 24 ms, unacked: 3, total push: 127
+
+2021-09-08 23:16:08,246 INFO received ack: {"type": "push-ack", "lastRefTime":"206216470968973", "data":""} from: 127.0.0.1:56889, cost: 21 ms, unacked: 2, total push: 127
+
+2021-09-08 23:16:08,249 INFO received ack: {"type": "push-ack", "lastRefTime":"206216457156257", "data":""} from: 127.0.0.1:51036, cost: 37 ms, unacked: 1, total push: 127
+
+2021-09-08 23:16:08,253 INFO received ack: {"type": "push-ack", "lastRefTime":"206216461831637", "data":""} from: 127.0.0.1:62437, cost: 32 ms, unacked: 0, total push: 127
+
+2021-09-08 23:16:08,257 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206216470968973
+
+2021-09-08 23:16:08,258 INFO send udp packet: 127.0.0.1,51036,206216470968973
+
+2021-09-08 23:16:08,276 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 23:16:08,278 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206216525317455
+
+2021-09-08 23:16:08,279 INFO send udp packet: 127.0.0.1,56552,206216525317455
+
+2021-09-08 23:16:08,280 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206216525317455
+
+2021-09-08 23:16:08,280 INFO send udp packet: 127.0.0.1,51036,206216525317455
+
+2021-09-08 23:16:08,299 INFO received ack: {"type": "push-ack", "lastRefTime":"206216525317455", "data":""} from: 127.0.0.1:56552, cost: 20 ms, unacked: 2, total push: 130
+
+2021-09-08 23:16:08,301 INFO received ack: {"type": "push-ack", "lastRefTime":"206216470968973", "data":""} from: 127.0.0.1:51036, cost: 43 ms, unacked: 1, total push: 130
+
+2021-09-08 23:16:08,368 INFO received ack: {"type": "push-ack", "lastRefTime":"206216525317455", "data":""} from: 127.0.0.1:51036, cost: 88 ms, unacked: 0, total push: 130
+
+2021-09-08 23:59:03,293 INFO DEFAULT_GROUP@@seata-provider2 is changed, add it to push queue.
+
+2021-09-08 23:59:03,294 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:56552, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56552,206303694177210
+
+2021-09-08 23:59:03,294 INFO send udp packet: 127.0.0.1,56552,206303694177210
+
+2021-09-08 23:59:03,295 INFO serviceName: DEFAULT_GROUP@@seata-provider2 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206303694177210
+
+2021-09-08 23:59:03,295 INFO send udp packet: 127.0.0.1,51036,206303694177210
+
+2021-09-08 23:59:03,295 INFO DEFAULT_GROUP@@seata-provider1 is changed, add it to push queue.
+
+2021-09-08 23:59:03,296 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:56889, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,56889,206303696017260
+
+2021-09-08 23:59:03,296 INFO send udp packet: 127.0.0.1,56889,206303696017260
+
+2021-09-08 23:59:03,296 INFO serviceName: DEFAULT_GROUP@@seata-provider1 changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206303696017260
+
+2021-09-08 23:59:03,296 INFO send udp packet: 127.0.0.1,51036,206303696017260
+
+2021-09-08 23:59:03,296 INFO DEFAULT_GROUP@@seata-consumer is changed, add it to push queue.
+
+2021-09-08 23:59:03,296 INFO serviceName: DEFAULT_GROUP@@seata-consumer changed, schedule push for: 127.0.0.1:51036, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,51036,206303697032288
+
+2021-09-08 23:59:03,297 INFO send udp packet: 127.0.0.1,51036,206303697032288
+
+2021-09-08 23:59:03,297 INFO SEATA_GROUP@@seata-server is changed, add it to push queue.
+
+2021-09-08 23:59:03,297 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:61624, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,61624,206303697435958
+
+2021-09-08 23:59:03,297 INFO send udp packet: 127.0.0.1,61624,206303697435958
+
+2021-09-08 23:59:03,297 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:54060, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,54060,206303697435958
+
+2021-09-08 23:59:03,297 INFO send udp packet: 127.0.0.1,54060,206303697435958
+
+2021-09-08 23:59:03,298 INFO serviceName: SEATA_GROUP@@seata-server changed, schedule push for: 127.0.0.1:62437, agent: Nacos-Java-Client:v1.3.3, key: 127.0.0.1,62437,206303697435958
+
+2021-09-08 23:59:03,298 INFO send udp packet: 127.0.0.1,62437,206303697435958
+
+2021-09-08 23:59:03,298 INFO received ack: {"type": "push-ack", "lastRefTime":"206303694177210", "data":""} from: 127.0.0.1:51036, cost: 3 ms, unacked: 6, total push: 137
+
+2021-09-08 23:59:03,299 INFO received ack: {"type": "push-ack", "lastRefTime":"206303694177210", "data":""} from: 127.0.0.1:56552, cost: 5 ms, unacked: 6, total push: 138
+
+2021-09-08 23:59:03,299 INFO received ack: {"type": "push-ack", "lastRefTime":"206303696017260", "data":""} from: 127.0.0.1:56889, cost: 3 ms, unacked: 5, total push: 138
+
+2021-09-08 23:59:03,300 INFO received ack: {"type": "push-ack", "lastRefTime":"206303696017260", "data":""} from: 127.0.0.1:51036, cost: 4 ms, unacked: 4, total push: 138
+
+2021-09-08 23:59:03,301 INFO received ack: {"type": "push-ack", "lastRefTime":"206303697435958", "data":""} from: 127.0.0.1:54060, cost: 4 ms, unacked: 3, total push: 138
+
+2021-09-08 23:59:03,301 INFO received ack: {"type": "push-ack", "lastRefTime":"206303697435958", "data":""} from: 127.0.0.1:61624, cost: 4 ms, unacked: 2, total push: 138
+
+2021-09-08 23:59:03,301 INFO received ack: {"type": "push-ack", "lastRefTime":"206303697435958", "data":""} from: 127.0.0.1:62437, cost: 3 ms, unacked: 1, total push: 138
+
+2021-09-08 23:59:03,303 INFO received ack: {"type": "push-ack", "lastRefTime":"206303697032288", "data":""} from: 127.0.0.1:51036, cost: 6 ms, unacked: 0, total push: 138
+

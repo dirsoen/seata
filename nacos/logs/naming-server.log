@@ -1,0 +1,1098 @@
+2021-09-09 00:14:20,206 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631116741061,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 00:14:20,207 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631116741072,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 00:14:20,208 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631116741069,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 00:14:20,210 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631116741092,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 00:14:20,886 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 00:14:20,886 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 00:14:20,887 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 00:14:20,887 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 00:14:25,844 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117665844,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 00:14:25,845 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631117665844,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 00:14:25,846 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117665844,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 00:14:25,848 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117665848,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 00:14:49,837 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 00:14:49,839 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider1
+
+2021-09-09 00:14:49,841 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider2
+
+2021-09-09 00:14:50,003 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 00:14:50,027 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider1
+
+2021-09-09 02:16:11,064 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117769940,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 02:16:11,066 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631117770053,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 02:16:11,067 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117769925,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 02:16:11,072 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631117770188,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 02:16:11,106 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 02:16:11,108 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 02:16:11,108 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 02:16:11,109 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 02:16:11,134 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631124971134,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 02:16:16,195 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631124976194,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 02:16:16,195 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631124976195,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 02:16:16,196 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631124976196,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:13:57,589 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631128734822,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 04:13:57,601 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631128734816,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:13:57,602 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631128734957,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:13:57,603 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631128734450,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:13:57,628 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:13:57,628 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:13:57,628 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:13:57,628 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider1
+
+2021-09-09 04:13:57,636 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 04:13:57,637 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 04:13:57,637 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 04:13:57,641 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 04:14:02,642 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132042642,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:14:02,643 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132042642,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:14:02,643 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132042642,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:14:02,643 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631132042642,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 04:14:12,891 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:12,895 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.ConnectException: Network is unreachable (connect failed)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:13,298 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.36:8848, ip=10.242.16.36:8848, heartbeatDueMs=4500, term=6, leaderDueMs=4178, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:14:14,857 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:14,860 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.ConnectException: Network is unreachable (connect failed)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:16,854 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:16,858 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.ConnectException: Network is unreachable (connect failed)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:17,308 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.36:8848, ip=10.242.16.36:8848, heartbeatDueMs=4500, term=6, leaderDueMs=4178, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:14:18,860 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:18,864 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.ConnectException: Network is unreachable (connect failed)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:20,853 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.ConnectException: Network is unreachable (connect failed)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:20,857 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.ConnectException: Network is unreachable (connect failed)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 04:14:22,403 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.36:8848, ip=10.242.16.36:8848, heartbeatDueMs=4500, term=6, leaderDueMs=4178, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:14:26,708 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=1, leaderDueMs=14917, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:14:32,035 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=1, leaderDueMs=9917, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:14:36,853 ERROR local ip is not in serverlist, ip: 127.0.0.1:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=500, term=1, leaderDueMs=5917, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 04:30:57,821 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631132156975,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 04:30:57,821 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132157105,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:30:57,831 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132157162,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:30:57,832 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631132157071,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:30:57,850 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider1
+
+2021-09-09 04:30:57,855 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:30:57,859 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-provider2
+
+2021-09-09 04:30:57,860 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:30:57,861 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:30:57,864 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 04:30:57,864 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 04:30:57,866 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 04:30:58,827 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:30:58,827 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:30:58,828 WARN protect threshold reached, return all ips, service: SEATA_GROUP@@seata-server
+
+2021-09-09 04:31:01,002 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133061002,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:31:01,038 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133061037,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:31:01,099 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133061099,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:48:57,830 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631133127377,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 04:48:57,830 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133127255,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:48:57,830 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133127282,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:48:57,830 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631133127282,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 04:48:57,834 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 04:48:57,834 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 04:48:57,834 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 04:48:57,834 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 04:48:57,883 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631134137883,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:48:57,912 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631134137911,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:48:57,912 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631134137911,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 04:48:58,013 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631134138013,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 05:50:51,736 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631135967446,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 05:50:51,737 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631135967807,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 05:50:51,738 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631135967447,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 05:50:51,739 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631135967779,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 05:50:51,776 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 05:50:51,776 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 05:50:51,778 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 05:50:52,494 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631137852494,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 05:50:56,735 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631137856734,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 05:50:56,735 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631137856735,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 07:52:26,988 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631137945398,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 07:52:26,988 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631137945398,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 07:52:26,988 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631137945398,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 07:52:26,991 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 07:52:26,991 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 07:52:26,991 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 07:52:27,207 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145147207,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 07:52:27,207 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145147207,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 07:52:27,207 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145147207,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 08:40:51,784 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631145233288,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 08:40:51,784 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145233284,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 08:40:51,784 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145233272,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 08:40:51,784 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631145233272,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 08:40:51,791 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 08:40:51,791 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 08:40:51,791 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 08:40:51,791 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 08:40:51,843 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148051843,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 08:40:51,843 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148051843,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 08:40:51,854 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148051854,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 08:40:51,858 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631148051858,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 09:22:55,442 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148151477,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 09:22:55,442 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148151389,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 09:22:55,442 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631148151476,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 09:22:55,442 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631148151400,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 09:22:55,449 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 09:22:55,449 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 09:22:55,449 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 09:22:55,450 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 09:22:55,622 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631150575622,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 09:22:55,634 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631150575634,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 09:22:55,710 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631150575710,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 09:22:55,710 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631150575710,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 09:36:29,900 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:31,904 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:33,906 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:35,910 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:36,820 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:36:37,913 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:39,917 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:41,825 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:36:41,921 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:43,925 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:45,925 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:46,830 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:36:47,927 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:49,930 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:51,833 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:36:51,934 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:53,937 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:55,938 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:56,835 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:36:57,942 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:36:59,942 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:01,835 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:01,942 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:03,946 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:05,950 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:06,839 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:07,951 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:09,955 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:11,840 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:11,957 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:13,960 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:15,964 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:16,844 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:17,967 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:19,970 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:21,849 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:21,974 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:23,976 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:25,979 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:26,851 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:27,983 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:29,986 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:31,854 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:31,991 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:33,995 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:35,998 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:36,857 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:38,001 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:40,003 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:41,862 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:42,007 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:44,012 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:46,016 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:46,867 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:48,017 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:50,021 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:51,870 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:52,024 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:54,026 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:56,029 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:37:56,874 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:37:58,034 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:00,039 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:01,879 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:38:02,044 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:04,048 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:06,050 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=127.0.0.1:8848, ip=127.0.0.1:8848, heartbeatDueMs=4500, term=2, leaderDueMs=19606, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:06,883 WARN Exception while request: http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:166)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:126)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:293)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:38:06,886 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://10.242.18.32:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: java.net.SocketTimeoutException: connect timed out
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:171)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-09-09 09:38:08,053 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=4000, term=6, leaderDueMs=6866, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:10,058 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=2000, term=6, leaderDueMs=4866, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:12,062 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=5000, term=6, leaderDueMs=2866, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:14,068 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=3000, term=6, leaderDueMs=866, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:16,072 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=3500, term=7, leaderDueMs=15211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:18,075 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=1500, term=7, leaderDueMs=13211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:20,080 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=4500, term=7, leaderDueMs=11211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:22,085 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=3000, term=7, leaderDueMs=9211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:24,089 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=1000, term=7, leaderDueMs=7211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:26,093 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=4000, term=7, leaderDueMs=5211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 09:38:28,095 ERROR local ip is not in serverlist, ip: 10.242.16.20:8848, serverlist: [Member{ip='10.242.18.32', port=8848, state=UP, extendInfo={adWeight=0, naming={voteFor=10.242.16.20:8848, ip=10.242.16.20:8848, heartbeatDueMs=2000, term=7, leaderDueMs=3211, state=CANDIDATE}, raftPort=7848, site=unknow, weight=1}}]
+
+2021-09-09 11:45:51,123 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631158854344,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 11:45:51,123 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631158854479,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 11:45:51,123 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631158854363,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 11:45:51,123 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631158854361,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 11:45:51,138 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 11:45:51,139 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 11:45:51,139 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 11:45:51,139 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 11:45:53,894 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631159153893,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 11:45:53,902 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631159153901,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 11:45:53,911 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631159153910,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 11:45:54,022 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631159154021,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 12:02:34,880 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider2, ip: {"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160046249,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 12:02:34,880 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160046249,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 12:02:34,880 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-provider1, ip: {"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160046246,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 12:02:34,880 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631160046197,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 12:02:34,884 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 12:02:34,884 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 12:02:34,884 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 12:02:34,884 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 12:02:35,107 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631160155106,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 12:02:35,160 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160155160,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 12:02:35,161 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160155161,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 12:02:35,162 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631160155162,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 13:09:35,425 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 13:09:38,833 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 13:10:04,340 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631164204340,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 13:10:09,868 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631164209868,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 14:43:14,901 INFO [AUTO-DELETE-IP] service: SEATA_GROUP@@seata-server, ip: {"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631169761568,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}
+
+2021-09-09 14:43:14,903 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[]}
+
+2021-09-09 14:43:14,990 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##SEATA_GROUP@@seata-server, value: {"instanceList":[{"instanceId":"10.242.18.32#8091#default#SEATA_GROUP@@seata-server","ip":"10.242.18.32","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"lastBeat":1631169794989,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000,"instanceIdGenerator":"simple"}]}
+
+2021-09-09 16:02:31,766 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[]}
+
+2021-09-09 16:02:54,577 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider1, value: {"instanceList":[{"instanceId":"10.242.18.32#8081#DEFAULT#DEFAULT_GROUP@@seata-provider1","ip":"10.242.18.32","port":8081,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider1","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174574576,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 16:02:55,979 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[]}
+
+2021-09-09 16:03:18,862 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-provider2, value: {"instanceList":[{"instanceId":"10.242.18.32#8082#DEFAULT#DEFAULT_GROUP@@seata-provider2","ip":"10.242.18.32","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-provider2","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174598862,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 16:03:56,077 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-consumer
+
+2021-09-09 16:05:12,663 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@seata-consumer
+
+2021-09-09 16:05:43,138 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174712664,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 16:05:43,140 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 16:06:13,589 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174773589,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 16:06:48,183 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174773589,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 16:06:48,184 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 16:07:25,411 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8080,"ip":"10.242.18.32","serviceName":"DEFAULT_GROUP@@seata-consumer","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@seata-consumer
+
+2021-09-09 16:07:25,460 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174845460,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 16:08:53,314 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 16:09:14,845 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[{"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631174954844,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2021-09-09 16:10:53,335 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@seata-consumer, ip: {"instanceId":"10.242.18.32#8080#DEFAULT#DEFAULT_GROUP@@seata-consumer","ip":"10.242.18.32","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@seata-consumer","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1631175019950,"marked":false,"app":"unknown","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}
+
+2021-09-09 16:10:53,336 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@seata-consumer, value: {"instanceList":[]}
+
+2021-09-09 16:12:56,553 WARN namespace : public, [DEFAULT_GROUP@@seata-consumer] services are automatically cleaned
+
+2021-09-09 16:12:56,594 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@seata-consumer","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1631175053336,"checksum":"0f5214b4ab4f96c6dec51efd1d6e472a","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@seata-consumer","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+

@@ -1,0 +1,401 @@
+{
+  "nodes": [
+    {
+      "type": "node",
+      "size": "110*48",
+      "shape": "flow-capsule",
+      "color": "red",
+      "label": "Compensation\nTrigger",
+      "stateId": "CompensationTrigger1",
+      "stateType": "CompensationTrigger",
+      "x": 528.375,
+      "y": 284.5,
+      "id": "78329956"
+    },
+    {
+      "type": "node",
+      "size": "72*72",
+      "shape": "flow-circle",
+      "color": "#FA8C16",
+      "label": "Start",
+      "stateId": "Start1",
+      "stateType": "Start",
+      "stateProps": {
+        "StateMachine": {
+          "Name": "transferBySaga",
+          "Comment": "a simple transfer demo by saga",
+          "Version": "0.0.1"
+        }
+      },
+      "x": 354.375,
+      "y": 56,
+      "id": "e3c845c6"
+    },
+    {
+      "type": "node",
+      "size": "110*48",
+      "shape": "flow-rect",
+      "color": "#1890FF",
+      "label": "amountMinus",
+      "stateId": "amountMinus",
+      "stateType": "ServiceTask",
+      "stateProps": {
+        "ServiceName": "firstSagaAction",
+        "ServiceMethod": "amountMinus",
+        "Input": [
+          "$.[_business_key_]",
+          "$.[from]",
+          "$.[amount]",
+          {
+            "sleepTime": "$.[extParams][amountMinusSleepTime]",
+            "throwException": "$.[extParams][amountMinusThrowException]"
+          }
+        ],
+        "Output": {
+          "amountMinusResult": "$.#root"
+        },
+        "Status": {
+          "$Exception{java.lang.Throwable}": "UN",
+          "#root == true": "SU",
+          "#root != true": "FA"
+        },
+        "Retry": [
+          {
+            "IntervalSeconds": 1,
+            "MaxAttempts": 3,
+            "BackoffRate": 1.5
+          }
+        ]
+      },
+      "x": 354.375,
+      "y": 165,
+      "id": "58a2086e"
+    },
+    {
+      "type": "node",
+      "size": "80*72",
+      "shape": "flow-rhombus",
+      "color": "#13C2C2",
+      "label": "Choice",
+      "stateId": "Choice1",
+      "stateType": "Choice",
+      "x": 354.375,
+      "y": 284.5,
+      "id": "eb17480a"
+    },
+    {
+      "type": "node",
+      "size": "110*48",
+      "shape": "flow-rect",
+      "color": "#1890FF",
+      "label": "amountAdd",
+      "stateId": "amountAdd",
+      "stateType": "ServiceTask",
+      "stateProps": {
+        "ServiceName": "secondSagaAction",
+        "ServiceMethod": "amountAdd",
+        "Input": [
+          "$.[_business_key_]",
+          "$.[to]",
+          "$.[amount]",
+          {
+            "sleepTime": "$.[extParams][amountAddSleepTime]",
+            "throwException": "$.[extParams][amountAddThrowException]"
+          }
+        ],
+        "Output": {
+          "amountAddResult": "$.#root"
+        },
+        "Status": {
+          "$Exception{java.lang.Throwable}": "UN",
+          "#root == true": "SU",
+          "#root != true": "FA"
+        },
+        "Retry": [
+          {
+            "IntervalSeconds": 1,
+            "MaxAttempts": 3,
+            "BackoffRate": 1.5
+          }
+        ]
+      },
+      "x": 354.375,
+      "y": 408.5,
+      "id": "a307dd5b"
+    },
+    {
+      "type": "node",
+      "size": "80*72",
+      "shape": "flow-rhombus",
+      "color": "#13C2C2",
+      "label": "Choice",
+      "stateId": "Choice2",
+      "stateType": "Choice",
+      "x": 354.375,
+      "y": 530.5,
+      "id": "3a1ccb40"
+    },
+    {
+      "type": "node",
+      "size": "72*72",
+      "shape": "flow-circle",
+      "color": "#05A465",
+      "label": "Succeed",
+      "stateId": "Succeed1",
+      "stateType": "Succeed",
+      "x": 354.375,
+      "y": 649.5,
+      "id": "c55b2604"
+    },
+    {
+      "type": "node",
+      "size": "110*48",
+      "shape": "flow-capsule",
+      "color": "#722ED1",
+      "label": "compensateMinus",
+      "stateId": "compensateMinus",
+      "stateType": "Compensation",
+      "stateProps": {
+        "ServiceName": "firstSagaAction",
+        "ServiceMethod": "compensateAmountMinus",
+        "Input": [
+          "$.[_business_key_]",
+          "$.[from]"
+        ],
+        "Output": {
+          "compensateAmountMinusResult": "$.#root"
+        },
+        "Status": {
+          "#root == true": "SU",
+          "#root != true": "FA"
+        },
+        "Retry": [
+          {
+            "IntervalSeconds": 1,
+            "MaxAttempts": 3,
+            "BackoffRate": 1.5
+          }
+        ]
+      },
+      "x": 176.375,
+      "y": 99,
+      "id": "07a2561b"
+    },
+    {
+      "type": "node",
+      "size": "110*48",
+      "shape": "flow-capsule",
+      "color": "#722ED1",
+      "label": "compensateAdd",
+      "stateId": "compensateAdd",
+      "stateType": "Compensation",
+      "stateProps": {
+        "ServiceName": "secondSagaAction",
+        "ServiceMethod": "compensateAmountAdd",
+        "Input": [
+          "$.[_business_key_]",
+          "$.[to]"
+        ],
+        "Output": {
+          "compensateAmountAddResult": "$.#root"
+        },
+        "Status": {
+          "#root == true": "SU",
+          "#root != true": "FA"
+        },
+        "Retry": [
+          {
+            "IntervalSeconds": 1,
+            "MaxAttempts": 3,
+            "BackoffRate": 1.5
+          }
+        ]
+      },
+      "x": 177.375,
+      "y": 351,
+      "id": "dac44a1a"
+    },
+    {
+      "type": "node",
+      "size": "39*39",
+      "shape": "flow-circle",
+      "color": "red",
+      "label": "Catch",
+      "stateId": "Catch1",
+      "stateType": "Catch",
+      "x": 412.375,
+      "y": 195,
+      "id": "c2f35514"
+    },
+    {
+      "type": "node",
+      "size": "39*39",
+      "shape": "flow-circle",
+      "color": "red",
+      "label": "Catch",
+      "stateId": "Catch2",
+      "stateType": "Catch",
+      "x": 415.375,
+      "y": 438.5,
+      "id": "93b63a93"
+    },
+    {
+      "type": "node",
+      "size": "72*72",
+      "shape": "flow-circle",
+      "color": "red",
+      "label": "Fail",
+      "stateId": "Fail1",
+      "stateType": "Fail",
+      "stateProps": {
+        "ErrorCode": "TRANSFER_FAILED",
+        "Message": "transfer failed, and rollbacked"
+      },
+      "x": 603.375,
+      "y": 649.5,
+      "id": "53d0b2c1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c2f35514",
+      "sourceAnchor": 1,
+      "target": "78329956",
+      "targetAnchor": 0,
+      "id": "b4865277",
+      "stateProps": {
+        "Exceptions": [
+          "java.lang.Throwable"
+        ]
+      },
+      "label": "",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "eb17480a",
+      "sourceAnchor": 1,
+      "target": "78329956",
+      "targetAnchor": 3,
+      "id": "fd4278d3",
+      "stateProps": {
+        "Expression": "[amountMinusResult] == false",
+        "Default": false
+      },
+      "label": "failed",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "93b63a93",
+      "sourceAnchor": 1,
+      "target": "78329956",
+      "targetAnchor": 3,
+      "id": "512f774a",
+      "stateProps": {
+        "Exceptions": [
+          "java.lang.Throwable"
+        ]
+      },
+      "label": "",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "3a1ccb40",
+      "sourceAnchor": 1,
+      "target": "78329956",
+      "targetAnchor": 2,
+      "id": "7f4ba0bc",
+      "stateProps": {
+        "Expression": "[amountAddResult] == false",
+        "Default": false
+      },
+      "label": "failed",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "e3c845c6",
+      "sourceAnchor": 2,
+      "target": "58a2086e",
+      "targetAnchor": 0,
+      "id": "5234f532"
+    },
+    {
+      "source": "58a2086e",
+      "sourceAnchor": 2,
+      "target": "eb17480a",
+      "targetAnchor": 0,
+      "id": "f2c43c0d",
+      "label": "",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "eb17480a",
+      "sourceAnchor": 2,
+      "target": "a307dd5b",
+      "targetAnchor": 0,
+      "id": "253d337b",
+      "stateProps": {
+        "Expression": "[amountMinusResult] == true",
+        "Default": false
+      },
+      "label": "success",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "a307dd5b",
+      "sourceAnchor": 2,
+      "target": "3a1ccb40",
+      "targetAnchor": 0,
+      "id": "3ac7b857",
+      "label": "",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "3a1ccb40",
+      "sourceAnchor": 2,
+      "target": "c55b2604",
+      "targetAnchor": 0,
+      "id": "8655605c",
+      "stateProps": {
+        "Expression": "[amountAddResult] == true",
+        "Default": false
+      },
+      "label": "success",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "78329956",
+      "sourceAnchor": 1,
+      "target": "53d0b2c1",
+      "targetAnchor": 0,
+      "id": "359090fb",
+      "label": "",
+      "shape": "flow-polyline-round"
+    },
+    {
+      "source": "58a2086e",
+      "sourceAnchor": 3,
+      "target": "07a2561b",
+      "targetAnchor": 2,
+      "id": "ae7a01c9",
+      "shape": "flow-polyline-round",
+      "style": {
+        "lineDash": "4",
+        "type": "Compensation",
+        "endArrow": false
+      }
+    },
+    {
+      "source": "a307dd5b",
+      "sourceAnchor": 3,
+      "target": "dac44a1a",
+      "targetAnchor": 2,
+      "id": "7e6157fd",
+      "shape": "flow-polyline-round",
+      "style": {
+        "lineDash": "4",
+        "type": "Compensation",
+        "endArrow": false
+      }
+    }
+  ]
+}
